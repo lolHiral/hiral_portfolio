@@ -52,9 +52,9 @@ section{
 
 .mascot{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 20px;
+    bottom: 100px;
+    right: 100px;
+    width: 100px;
     animation: float 3s ease-in-out infinite;
 }
 
