@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #ffd6ec, #e0c3fc);
+    color: #444;
+    overflow-x: hidden;
+}
+
+.hero{
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1{
+    font-size: 3rem;
+}
+
+button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background: #ffe4fa;
+}
+
+section{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translate(-10px);
+}
+
+/* floating demodog uwu */
+
+.mascot{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{ transform: translayeY(0px); }
+    50%{ transform: translateY(-15px);}
+    100%{ transform: translateY(0px);}
+}
