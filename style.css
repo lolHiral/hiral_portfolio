@@ -45,21 +45,38 @@ section{
 }
 
 .card:hover{
-    transform: translate(-10px);
+    transform: translateY(-10px);
 }
 
-/* floating demodog uwu */
-
-.mascot{
-    position: fixed;
-    bottom: 100px;
-    right: 100px;
-    width: 100px;
-    animation: float 3s ease-in-out infinite;
+body {
+  cursor: none;
 }
 
-@keyframes float{
-    0%{ transform: translayeY(0px); }
-    50%{ transform: translateY(-15px);}
-    100%{ transform: translateY(0px);}
+.cursor {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+/* RACCOON MASCOT */
+
+.raccoon {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 150px;
+  pointer-events: none;
+  transition: transform 0.1s ease-out;
+  animation: float 4s ease-in-out infinite;
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
 }
