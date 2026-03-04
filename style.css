@@ -6,27 +6,45 @@ body{
     overflow-x: hidden;
 }
 
-.hero{
-    text-align: center;
-    padding: 120px 20px;
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .hero h1{
     font-size: 3rem;
 }
 
-button{
-    padding: 12px 25px;
-    border: none;
-    border-radius: 25px;
-    background: white;
-    cursor: pointer;
-    transition: 0.3s;
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255,255,255,0.6), transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  filter: blur(40px);
 }
 
-button:hover{
-    transform: scale(1.1);
-    background: #ffe4fa;
+button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  transform: translateY(-5px);
+  background: #ffe4fa;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
 
 section{
