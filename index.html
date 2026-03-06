@@ -11,44 +11,84 @@
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
+
+<nav class="navbar">
+  <div class="logo">Hiral Khurana</div>
+
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#interests">Interests</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
 <div class="bg-circle one"></div>
 <div class="bg-circle two"></div>
 
 <div class="cursor"></div>
 
-
 <section class="hero" id="hero">
+<div class="hero-content">
 <h1>Hola, I am Hiral Khurana</h1>
-<p>add my attributes later like my details and stuff</p>
-<button id="exploreBtn">Explore!</button>
+<p>A B.Tech student who enjoys programming, research, and building things on the internet.</p>
+<button id="exploreBtn">Explore</button>
+</div>
 </section>
-
 
 <section class="about" id="about">
 <h2>About Me</h2>
-<p>add full details about myself, like degree and stuff</p>
+<div class="divider"></div>
+<p>I'm currently pursuing B.Tech and exploring computer science, programming and research. I enjoy learning new technologies and building projects while constantly improving my problem-solving skills.</p>
 </section>
 
+<section class="education" id="education">
+<h2>Education</h2>
+<div class="divider"></div>
+
+<div class="education-container">
+
+<div class="edu-card">
+<h3>Bachelor of Technology (B.Tech)</h3>
+<p>Your University / College Name</p>
+<span>Year – Present</span>
+</div>
+
+<div class="edu-card">
+<h3>Senior Secondary (Class XII)</h3>
+<p>Your School Name</p>
+<span>Year</span>
+</div>
+
+<div class="edu-card">
+<h3>Secondary School (Class X)</h3>
+<p>Your School Name</p>
+<span>Year</span>
+</div>
+
+</div>
+</section>
 
 <section class="projects" id="projects">
 <h2>My Projects</h2>
+<div class="divider"></div>
 
 <div class="projects-container">
 
 <div class="card">
-<h3>Name of project 1</h3>
-<p>Add description</p>
+<h3>Portfolio Website</h3>
+<p>This interactive portfolio with a custom cursor, animated mascot guide and responsive design.</p>
 </div>
 
 </div>
 </section>
 
-
 <section class="skills" id="skills">
 <h2>Skills</h2>
+<div class="divider"></div>
 
 <div class="skills-container">
 <div class="skill">C++</div>
@@ -60,9 +100,9 @@
 </div>
 </section>
 
-
 <section class="interests" id="interests">
 <h2>Interests & Hobbies</h2>
+<div class="divider"></div>
 
 <div class="interests-container">
 <div class="interest-card">Reading</div>
@@ -73,9 +113,9 @@
 </div>
 </section>
 
-
 <section class="contact" id="contact">
 <h2>Contact</h2>
+<div class="divider"></div>
 
 <p>If you'd like to collaborate or just say hi!</p>
 
@@ -87,13 +127,15 @@
 
 </section>
 
-
 <img src="images/raccoon.png" class="raccoon" alt="Nerd Raccoon Mascot">
 
 <div class="speech" id="speech">
 Hi, I'm your portfolio guide!
 </div>
 
+<footer class="footer">
+<p>Made with ☕ and questionable debugging skills.</p>
+</footer>
 
 <script src="script.js"></script>
 
