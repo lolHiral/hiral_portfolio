@@ -23,13 +23,13 @@ The website features an interactive UI, custom cursor effects, an animated masco
 * **Hero Section** – Introduction and overview
 * **About Me** – Background and interests
 * **Projects** – Showcase of personal and technical projects
-* **Skills** – Programming languages and technical skills, other academic and non-academic skills
+* **Skills** – Programming languages and technical skills
 * **Interests & Hobbies** – Personal interests outside academics
 * **Contact** – Links to GitHub, LinkedIn, and email
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **HTML5**
 * **CSS3**
