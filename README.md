@@ -66,7 +66,7 @@ portfolio
 
 ## Live Preview
 
-add my link here
+(https://lolhiral.github.io/hiral_portfolio/)
 
 ---
 
