@@ -1,0 +1,28 @@
+{
+  "name": "hiral_portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio website built to showcase my projects, technical skills, and interests in programming and research.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hy69x/hiral_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hy69x/hiral_portfolio/issues"
+  },
+  "homepage": "https://github.com/hy69x/hiral_portfolio#readme",
+  "devDependencies": {
+    "three": "^0.183.2",
+    "vite": "^8.0.1"
+  }
+}
